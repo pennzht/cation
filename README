@@ -1,0 +1,23 @@
+Cation is a minimal TODO app written in Python.
+
+Run on the commandline:
+
+    python3 cation.py <command> <arguments>
+
+Run interactively:
+
+    python3 cation.py
+
+Commands:
+
+    q                                     # Exit
+    a <text>                              # Add an item
+    d <id>                                # Mark an item as done
+    t <id>                                # Mark an item as todo
+    o <id>                                # Mark an item as outdated
+    x <id>                                # Delete an item
+    m <id> <text>                         # Modify the text of an item
+    p <id1> <id2>                         # Set <id1> as the parent of <id2>
+    l <id1> <id2>                         # Set <id1> as a prerequisite for <id2> (toposort feature pending)
+    b <id1> <id2>                         # Break the link between <id1> and <id2>
+
